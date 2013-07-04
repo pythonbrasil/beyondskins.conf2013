@@ -81,11 +81,13 @@ input.searchButton {
 #nav li a:hover, #nav li.selected a:hover {color: #FBAB18;}
 #nav .submenu, #nav .submenu li {margin: 0; padding: 0;}
 #nav .submenu li a {padding: 3px 5px;}
-    .submenu {
+.submenu {
+    background: #fff;
     -moz-box-shadow: 3px 3px 3px #666;
     -webkit-box-shadow: 3px 3px 3px #666;
     box-shadow: 3px 3px 3px #666;
     margin-top: -5px;
+    z-index: 10;
 }
 #portal-globalnav ul.submenu li a {color: #2271a9 !important;}
 #portal-globalnav ul.submenu li a:hover {background: #2271a9 !important; color: #fff !important;}
@@ -346,4 +348,9 @@ a.talk_details_link {
     padding: 1%;
     width: 25%;
     min-height: 48px;
+}
+
+.tile .galleria {
+    height: 172px;
+    width: 174px;
 }
