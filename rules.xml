@@ -70,7 +70,7 @@
     <rules if-not-path="pythonbrasil">
         <rules if-not-path="ploneconf">
 
-            <theme href="common/index.html" />
+            <theme href="common/index.html" css:if-content="#visual-portal-wrapper"/>
 
             <!--Head-->
             <before css:content="head style, head link, head script, head meta" css:theme-children="head" />
