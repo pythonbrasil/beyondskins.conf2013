@@ -237,6 +237,7 @@ select {
 }
 #patrocinadores dd a img{
     vertical-align:middle;
+    margin: 1em 2em;
 }
 
 
@@ -245,7 +246,6 @@ select {
     color: #eaffff;
     clear: left;
     padding: 2em;
-    margin-top: 20px;
 }
 #footer a:link {
     color:#eaffff;

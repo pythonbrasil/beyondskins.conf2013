@@ -193,6 +193,7 @@ dl.portlet {
 }
 #patrocinadores dd a img{
     vertical-align:middle;
+    margin: 1em 2em;
 }
 #patrocinadores h2 {
     font-size: 1.25em;
