@@ -18,6 +18,7 @@
         <replace css:content="#portal-columns" css:theme="#content" />
 
         <!--Viewlets-->
+        <before css:content="#portal-searchbox" css:theme="#user" />
         <replace css:content="#portal-personaltools" css:theme="#user" />
         <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
         <drop css:content=".searchSection" />
