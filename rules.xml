@@ -8,10 +8,10 @@
         <theme href="pythonbrasil/index.html" css:if-content="#visual-portal-wrapper" />
 
         <!--Head-->
-        <prepend css:content="head base" css:theme="head" />
         <copy css:content="html" css:theme="html" attributes="lang dir" />
         <drop css:theme="meta, title" />
         <before css:content="head" css:theme="head" />
+        <prepend css:content="head base" css:theme="head" />
 
         <!--Content-->
         <merge attributes="class" css:content="body" css:theme="body" />
@@ -41,9 +41,8 @@
         <append theme="/html/body" content="//div[@data-iframe='toolbar']" />
 
         <!--Head-->
-        <prepend css:content="head base" css:theme="head" />
         <copy css:content="html" css:theme="html" attributes="lang dir" />
-        <before css:content="head style, head link, head script, head meta" css:theme-children="head" />
+        <before css:content="head base, head style, head link, head script, head meta" css:theme-children="head" />
         <replace css:content="head title" css:theme="head title" />
         <drop css:content="head link[rel='shortcut icon']" />
         <drop css:content="head link[rel='apple-touch-icon']" />
@@ -75,8 +74,7 @@
             <theme href="common/index.html" css:if-content="#visual-portal-wrapper"/>
 
             <!--Head-->
-            <prepend css:content="head base" css:theme="head" />
-            <before css:content="head style, head link, head script, head meta" css:theme-children="head" />
+            <before css:content="head base, head style, head link, head script, head meta" css:theme-children="head" />
             <replace css:content="head title" css:theme="head title" />
             <drop css:content="head link[rel='shortcut icon']" />
             <drop css:content="head link[rel='apple-touch-icon']" />
